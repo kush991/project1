@@ -12,6 +12,6 @@
 
     - name: Copy HTML to web server
       copy:
-        src: app/
+        src: ../app/
         dest: /var/www/html/
         mode: '0644'
