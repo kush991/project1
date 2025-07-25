@@ -13,4 +13,4 @@
     - name: Copy HTML to web server
       copy:
         src: ../app/
-        dest: /var/www/html/
+        dest: /var/www/html/index.html
