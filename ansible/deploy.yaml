@@ -11,7 +11,7 @@
         update_cache: yes
 
     - name: Copy HTML to web server
-     copy:
+      copy:
         src: app/
         dest: /var/www/html/
         mode: '0644'
